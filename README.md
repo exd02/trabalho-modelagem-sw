@@ -1,4 +1,4 @@
-<h1>Passos git</h1>:
+<h1>Passos git</h1>
 <ol>
   <li><h4>Criar diretório para o repositório</h4></li>
   <img src="https://github.com/user-attachments/assets/ac33be71-769d-4e4d-93b1-4de1e47b848b">
