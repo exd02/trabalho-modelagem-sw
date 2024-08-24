@@ -12,4 +12,6 @@
   <img src="https://github.com/user-attachments/assets/4577cdd0-251e-4a16-92bc-0594cec4e538">
   <li><h4>Criar uma tag para a versão atualizada (v1.1)</h4></li>
   <img src="https://github.com/user-attachments/assets/299b9889-85de-445f-be03-c0c8755309a1">
+  <li><h4>Adicionando documento de requeisitos ao git</h4></li>
+  <img src="https://github.com/user-attachments/assets/2fe6e779-cd0b-423c-8ecb-36e4d481160c">
 </ol>
