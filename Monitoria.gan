@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Monitoria" company="EliamKeven" webLink="http://" view-date="2024-09-08" view-index="0" gantt-divider-location="434" resource-divider-location="300" version="3.3.3309" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="248" order="0"/>
+        <field id="tpd4" name="Data inicial" width="92" order="1"/>
+        <field id="tpd5" name="Data final" width="93" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Função" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="51692aa040364d62bc3141b1d4dfba46" name="Estruturação da lógica" meeting="false" start="2024-08-06" duration="2" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="350d51cc0d2c4ee6afd14e24c0819120" name="Elaboração das responsabilidades" meeting="false" start="2024-08-08" duration="4" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="68010f3f75474445ad8ff758e2bc7023" name="Elaboração do Design" meeting="false" start="2024-08-14" duration="10" complete="0" expand="true">
+            <depend id="46" type="2" difference="0" hardness="Strong"/>
+            <task id="7" uid="080ac30df25a45c5b56bcdf525cea974" name="Paleta do sistema" meeting="false" start="2024-08-14" duration="3" complete="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" uid="94330bebbd9644ed8c621e18b038974f" name="Tela Geral pra todos os usuários" meeting="false" start="2024-08-19" duration="2" complete="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" uid="3648629abfa94507b1d1d39bd4f1ef0b" name="Tela de Secretária" meeting="false" start="2024-08-21" duration="1" complete="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" uid="b959f53f9bca44b5bd81c1369b6c6265" name="Tela de Professor" meeting="false" start="2024-08-22" duration="1" complete="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" uid="d5b6dfc0616c4f26920ebc3dc43fdee2" name="Tela de Admin" meeting="false" start="2024-08-23" duration="1" complete="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="5b513f8e1b344c1aa6cadae5ddadb9db" name="Tela de Monitor" meeting="false" start="2024-08-26" duration="1" complete="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" uid="f9965e34d0244e94b6e73a60e5e46136" name="Tela de Aluno" meeting="false" start="2024-08-27" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="46" uid="01259b5508344efc958aab5098a13e72" name="Elaboração das Telas" color="#000000" meeting="false" start="2024-08-28" duration="7" complete="0" expand="true">
+            <depend id="54" type="2" difference="0" hardness="Strong"/>
+            <task id="47" uid="71f99474461445e0bdf5c1764391e544" name="Secretária" color="#8cb6ce" meeting="false" start="2024-08-28" duration="1" complete="0" expand="true">
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+                <depend id="50" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="48" uid="6f792fa4610a4acab435c59830bafe3a" name="Admin" color="#8cb6ce" meeting="false" start="2024-08-29" duration="1" complete="0" expand="true">
+                <depend id="49" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="49" uid="2eb23aea5c294a01b8b7e97be0e48753" name="Professor" color="#8cb6ce" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true">
+                <depend id="50" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="50" uid="6db7cc99e90b43f6be949338af73939e" name="Monitor" color="#8cb6ce" meeting="false" start="2024-09-02" duration="1" complete="0" expand="true">
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="51" uid="3dd3a97d0d2944a9afa5ef2e59e3699f" name="Sala" color="#8cb6ce" meeting="false" start="2024-09-03" duration="1" complete="0" expand="true">
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="52" uid="1112e8f8a8534d1da2fd3bb7ef353e48" name="Aluno" color="#8cb6ce" meeting="false" start="2024-09-04" duration="1" complete="0" expand="true">
+                <depend id="53" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="53" uid="fc23c8cb6f33499288ec2fcb15795947" name="Disciplina" color="#8cb6ce" meeting="false" start="2024-09-05" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="30" uid="aec56fea0c36496dbdfd38919b3c8710" name="Elaboração da Base de Dados" color="#000000" meeting="false" start="2024-08-15" duration="7" complete="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <depend id="38" type="2" difference="0" hardness="Strong"/>
+            <task id="31" uid="25930af2a0ad44678da6c123e2096eb3" name="Secretária" color="#8cb6ce" meeting="false" start="2024-08-15" duration="1" complete="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" uid="1f2a02f7fbd6436b899b610824182746" name="Admin" color="#8cb6ce" meeting="false" start="2024-08-16" duration="1" complete="0" expand="true">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="33" uid="a08e1cd054e44eb18592f3dd62d98644" name="Professor" color="#8cb6ce" meeting="false" start="2024-08-19" duration="1" complete="0" expand="true">
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="34" uid="9446dc5d2e004c7dba5f0eaafdb70efe" name="Monitor" color="#8cb6ce" meeting="false" start="2024-08-20" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" uid="0677cfac74864d21a9375deb6138cbf7" name="Sala" color="#8cb6ce" meeting="false" start="2024-08-21" duration="1" complete="0" expand="true">
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="36" uid="9157f9e1cde049bd87d07fa4bb604111" name="Aluno" color="#8cb6ce" meeting="false" start="2024-08-22" duration="1" complete="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" uid="5d2ce8c8cff74b04b6f5b53c105a048e" name="Disciplina" color="#8cb6ce" meeting="false" start="2024-08-23" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="38" uid="043947fb05aa42558a7f9bb887ad6b26" name="Elaboração do Back" color="#000000" meeting="false" start="2024-08-26" duration="11" complete="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <depend id="55" type="2" difference="0" hardness="Strong"/>
+            <task id="39" uid="38b2cc455f744745bbd125e9a0f32c69" name="Funções Secretária" color="#8cb6ce" meeting="false" start="2024-08-26" duration="1" complete="0" expand="true">
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="40" uid="dbd0ce3df97e46feaaf407e5b12b2a75" name="Funções Admin" color="#8cb6ce" meeting="false" start="2024-08-27" duration="1" complete="0" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" uid="0e44254db37540ab88b6e99003879e8f" name="Funções Professor" color="#8cb6ce" meeting="false" start="2024-08-28" duration="1" complete="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="42" uid="761687504f9e479ba64ae61aeb4db11f" name="Funções Monitor" color="#8cb6ce" meeting="false" start="2024-08-29" duration="1" complete="0" expand="true">
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="43" uid="4f0526fcbe284824ab6f87793bc25555" name="Funções Sala" color="#8cb6ce" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="44" uid="a01d666954a348fb9376f05d100d0c0e" name="Funções Aluno" color="#8cb6ce" meeting="false" start="2024-09-02" duration="1" complete="0" expand="true">
+                <depend id="45" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="45" uid="6b6bf9dfe118432eaf9887e64181486f" name="Funções Disciplina" color="#8cb6ce" meeting="false" start="2024-09-03" duration="1" complete="0" expand="true">
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="56" uid="a743aff66be14f6e9540a198fc19f0f1" name="Edital" meeting="false" start="2024-09-04" duration="1" complete="0" expand="true">
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="57" uid="1424b59b050c4b1ca7bbe9e99a8ff3e2" name="Certificado" meeting="false" start="2024-09-05" duration="1" complete="0" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="59" uid="dc7c441a29ce42959d0443f64f4f9b91" name="Relatórios" meeting="false" start="2024-09-06" duration="1" complete="0" expand="true">
+                <depend id="58" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="58" uid="3e68b042e0fb42b4952a5f640eb72ec7" name="Frequência" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="12" uid="e2ffc6038a334e8bb62fabc40dfdec40" name="Elaboração das APIs" meeting="false" start="2024-09-10" duration="11" complete="0" expand="true">
+            <depend id="54" type="2" difference="0" hardness="Strong"/>
+            <task id="15" uid="f613543bc9c94c07a310f6240fe395bb" name="CRUD Secretária" meeting="false" start="2024-09-10" duration="1" complete="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="eb93ac63341c441fa6c006d23f0aace0" name="CRUD Admin" meeting="false" start="2024-09-11" duration="1" complete="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="6e131e5c6c5446d29b360a4613c57faa" name="CRUD Professor" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="888471247a774b8586813b31543b4dc9" name="CRUD Monitor" meeting="false" start="2024-09-13" duration="1" complete="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" uid="a927da76072b40019287cd9059649005" name="CRUD Sala" meeting="false" start="2024-09-16" duration="1" complete="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" uid="4df9fab9e4444c9fba9b5a177462a24a" name="CRUD Aluno" meeting="false" start="2024-09-17" duration="1" complete="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" uid="e122fe80158b4fbfb24d4707c0846c29" name="CRUD Disciplina" meeting="false" start="2024-09-18" duration="1" complete="0" expand="true">
+                <depend id="60" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="60" uid="037a4aa775d54b0a978dfc7a3666d923" name="Edital" color="#8cb6ce" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true">
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="61" uid="0cef71130ab24c2ca5d68270e8e990f0" name="Certificado" color="#8cb6ce" meeting="false" start="2024-09-20" duration="1" complete="0" expand="true">
+                <depend id="62" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="62" uid="7344584c31ac4dca9a19e43582e77e44" name="Frequência" color="#8cb6ce" meeting="false" start="2024-09-23" duration="1" complete="0" expand="true">
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="63" uid="9613a45346a84fdab3bee0a143f47c67" name="Relatórios" color="#8cb6ce" meeting="false" start="2024-09-24" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="54" uid="b6be5231961c41de9e646782bdead6e0" name="Testes de Sistema" meeting="false" start="2024-09-25" duration="5" complete="0" expand="true">
+            <depend id="55" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="55" uid="aa24c6b462084d1d8c21b723f8d50c46" name="Revisão do Sistema" meeting="false" start="2024-10-02" duration="4" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Lucas" function="SoftwareDevelopment:5" contacts="" phone=""/>
+        <resource id="1" name="Lohran" function="SoftwareDevelopment:4" contacts="" phone=""/>
+        <resource id="2" name="Marcelo" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="3" name="Eliam" function="Default:1" contacts="" phone=""/>
+        <resource id="4" name="Keven" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="5" name="Pedro" function="SoftwareDevelopment:3" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="54" resource-id="1" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
